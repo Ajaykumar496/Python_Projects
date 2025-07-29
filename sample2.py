@@ -13,3 +13,7 @@ elif age== 18:
     print("You can vote")
 else:
     print("Better Luck next time")
+#Loops
+cars = ["BMW", "AUDI", "TOYOTA", "FORD", "JEEP"]
+for i in cars:
+    print(i)
