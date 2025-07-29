@@ -17,3 +17,6 @@ else:
 cars = ["BMW", "AUDI", "TOYOTA", "FORD", "JEEP"]
 for i in cars:
     print(i)
+#Loops
+for i in range(1,10):
+    print("*"*i)
