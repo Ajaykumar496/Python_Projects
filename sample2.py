@@ -1,22 +1,22 @@
-#fstrings
-name = "Arjunreddy"
-age = 24
-print(f"My name is {name} and i am {age} years old")
-#String Indexing 
-print(name[0])
-#String Slicing
-print(name[0:5:1])
-#Conditional Statements
-if age> 18:
-    print("You can vote")
-elif age== 18:
-    print("You can vote")
-else:
-    print("Better Luck next time")
-#Loops
-cars = ["BMW", "AUDI", "TOYOTA", "FORD", "JEEP"]
-for i in cars:
-    print(i)
-#Loops
-for i in range(1,10):
-    print("*"*i)
+# sample2.py
+
+def get_intro(name, age):
+    return f"My name is {name} and I am {age} years old"
+
+def get_first_letter(name):
+    return name[0]
+
+def get_name_slice(name):
+    return name[0:5:1]
+
+def can_vote(age):
+    if age >= 18:
+        return "You can vote"
+    else:
+        return "Better Luck next time"
+
+def list_cars(cars):
+    return cars
+
+def print_stars(n):
+    return ["*" * i for i in range(1, n)]
