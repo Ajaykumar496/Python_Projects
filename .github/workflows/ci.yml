@@ -27,7 +27,7 @@ jobs:
       run: python sample2.py > output.txt
 
     - name: Upload output file as artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: script-output
         path: output.txt
